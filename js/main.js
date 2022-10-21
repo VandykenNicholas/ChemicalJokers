@@ -9,6 +9,9 @@ function createDiv()
 	let div = document.createElement("div");
 	let node = document.createTextNode(`This is the 1st div`)
 	div.appendChild(node);
+	
+	const element = document.getElementById("div1");
+	element.appendChild(div);
 }
 
 createDiv();
