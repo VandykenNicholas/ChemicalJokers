@@ -22,13 +22,16 @@
 
 .map-stats-container{
     display: flex;
-    justify-content: center;
+    min-width: 50px;
+    max-width: 150px;
     flex-direction: column;
     margin-left: 5px;
+
 }
 .kd-container{
     display: flex;
     flex-wrap: wrap;
+    min-width: 50px;
 
 }
 .players-container{
@@ -37,7 +40,7 @@
     flex-direction: column;
 }
 .item-kd-inner{
-    flex-basis: 50%;
+    flex-basis: 30%;
     flex-grow: 1;
     text-align: center;
 }
@@ -55,6 +58,8 @@
 }
 .map-scroll-container{
     display: flex;
+    justify-content: space-between;
+    min-width: 100px;
     flex-direction: row;
-    overflow-scrolling: auto;
+    overflow-x: scroll;
 }
