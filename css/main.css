@@ -23,15 +23,24 @@
     display: flex;
     flex-direction: column;
     margin-left: 5px;
+    min-width: 40vw;
+
+
 
 }
 .kd-container{
     display: flex;
     flex-wrap: wrap;
+    margin-right: 2vw;
 
 
 }
 .players-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 12.2vh;
+    padding-bottom: 3.6vh;
 
 
 }
@@ -40,6 +49,7 @@
     flex-grow: 1;
     text-align: center;
     min-height: 5vh;
+    min-width:5vw;
 }
 .item-map-info{
     display: flex;
@@ -48,14 +58,13 @@
     justify-content: center;
 }
 .item-player-pic{
-   display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 4vh;
+
 }
 .map-scroll-container{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     overflow-x: scroll;
+
+
 }
