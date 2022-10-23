@@ -1,0 +1,60 @@
+.game-container{
+    display: flex;
+     flex-direction: column;
+    flex-wrap: nowrap;
+}
+.stats-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+
+}
+.match-container{
+    display: flex;
+    max-width: available;
+    flex-direction: column;
+}
+.item-match-info{
+    display: flex;
+    justify-content: center;
+}
+
+.map-stats-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.kd-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.players-container{
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column;
+}
+.item-kd-inner{
+    flex-basis: 50%;
+    flex-grow: 1;
+    text-align: center;
+}
+.item-map-info{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.item-player-pic{
+   display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+    justify-content: space-between;
+}
+.map-scroll-container{
+    display: flex;
+    flex-direction: row;
+    overflow-scrolling: auto;
+}
