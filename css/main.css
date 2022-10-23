@@ -22,8 +22,8 @@
 
 .map-stats-container{
     display: flex;
-    min-width: 50px;
-    max-width: 150px;
+    min-width: 10vw;
+    max-width: 30vw;
     flex-direction: column;
     margin-left: 5px;
 
