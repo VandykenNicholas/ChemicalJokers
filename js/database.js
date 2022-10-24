@@ -1,8 +1,64 @@
+createGameContainer(`10/19/2022`,
+	`VGG`,
+	`Loss`,
+	`Dutch`,
+	5,6,
+	6,5,
+	0,0,
+	`DJ`,
+	17,5,
+	16,5,
+	0,0,
+	`Fatigue`,
+	12,5,
+	6,3,
+	0,0,
+	`Marky`,
+	17,6,
+	18,7,
+	0,0,
+	`Slog`,
+	8,5,
+	6,3,
+	0,0,
+	`Suna`,
+	`11-1`,
+	`Kiti`,
+	`11-0`,
+	false,null,null,`22-1`
+	);
 
-//////// k/d ///player///// map //////
-createGameContainer(`3-21`, `VGG`, `Lose`,`Dutch`,3, 5,`DJ`,3, 5, `Fatigue`,3,5, `Marky`,3,5, `Slog`,3, 5, `Suna`,`11-3`,`Maar`,`11-5`, 3,5,6,6,22,7,14,5, 2, 3, 3,2,1,6,20,11,15,7,12,12,`Kiti`, `8-11`, true, `33-33`);
-
-function createGameContainer(date, opponent, outcome, firstPlayer,k11, d11, secondPlayer,k21, d21, thirdPlayer,k31, d31, forthPlayer,k41, d41, fifthPlayer,k51, d51, firstMap, firstMapScore, secondMap, secondMapScore, k12,d12, k22, d22, k32, d32, k42, d42, k52, d52, k13, d13, k23, d23, k33, d33, k43, d43, k53, d53, thirdMap, thirdMapScore, thirdPlayed, totalScoreInput){
+function createGameContainer(date,
+                             opponent,
+                             outcome,
+                             firstPlayer,
+                             k11, d11,
+                             k12,d12,
+                             k13, d13,
+                             secondPlayer,
+                             k21, d21,
+                             k22, d22,
+                             k23, d23,
+                             thirdPlayer,
+                             k31, d31,
+                             k32, d32,
+                             k33, d33,
+                             forthPlayer,
+                             k41, d41,
+                             k42, d42,
+                             k43, d43,
+                             fifthPlayer,
+                             k51, d51,
+                             k52, d52,
+                             k53, d53,
+                             firstMap,
+                             firstMapScore,
+                             secondMap,
+                             secondMapScore,
+                             thirdPlayed,
+                             thirdMap,
+                             thirdMapScore,
+                             totalScoreInput){
 	
 	////needed conditional variables////
 	let kd31 = 0;
@@ -316,7 +372,6 @@ function createGameContainer(date, opponent, outcome, firstPlayer,k11, d11, seco
 		player3kda = ((parseFloat(kd3)+parseFloat(kd23)+parseFloat(kd33))/3).toFixed(2);
 		player4kda = ((parseFloat(kd4)+parseFloat(kd24)+parseFloat(kd34))/3).toFixed(2);
 		player5kda = ((parseFloat(kd5)+parseFloat(kd25)+parseFloat(kd35))/3).toFixed(2);
-		console.log(player5kda);
 	}
 	else {
 		player1kda = (parseFloat(kd1)+parseFloat(kd21))/2;
@@ -325,7 +380,7 @@ function createGameContainer(date, opponent, outcome, firstPlayer,k11, d11, seco
 		player4kda = (parseFloat(kd4)+parseFloat(kd24))/2;
 		player5kda = (parseFloat(kd5)+parseFloat(kd25))/2;
 	}
-	teamkda = (parseFloat(player1kda)+parseFloat(player2kda)+parseFloat(player3kda)+parseFloat(player4kda)+parseFloat(player5kda))/5;
+	teamkda = ((parseFloat(player1kda)+parseFloat(player2kda)+parseFloat(player3kda)+parseFloat(player4kda)+parseFloat(player5kda))/5).toFixed(2);
 	
 	let averageLoop = [teamkda,player1kda, player2kda,player3kda,player4kda,player5kda];
 	////////////// variables

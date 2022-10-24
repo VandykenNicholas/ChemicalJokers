@@ -1,3 +1,8 @@
+body{
+    font-size: x-large;
+}
+
+
 .game-container{
     display: flex;
     flex-direction: column;
@@ -24,16 +29,21 @@
     flex-direction: column;
     margin-left: 5px;
     min-width: 40vw;
+    border-width: .1em;
+    border-color: black;
+    border-style: solid;
 }
 .kd-container{
     display: flex;
     flex-wrap: wrap;
     margin-right: 2vw;
+
 }
 .players-container{
     display: flex;
     flex-direction: column;
-
+    margin-top: 1vh;
+    background-color: rgba(21,170,14,0.26);
 }
 .item-kd-inner{
     flex-basis: 30%;
@@ -41,6 +51,7 @@
     text-align: center;
     min-height: 5vh;
     min-width:5vw;
+border-bottom: .1em solid black;
 }
 .item-map-info{
     display: flex;
@@ -62,6 +73,8 @@
 .average-container{
     display: flex;
     flex-direction: column;
+    margin-top: 1.5vh;
+    background-color: rgba(88, 143, 33, 0.24);
 
 }
 .item-average{
@@ -81,4 +94,16 @@
 }
 .red{
     color: red;
+}
+
+.suna{
+    background-color: rgba(232,184,15,0.38);
+}
+
+.kiti{
+    background-color: rgba(1,0,236,0.58);
+}
+
+.maar{
+    background-color: rgba(236,1,0,0.58);
 }
