@@ -24,24 +24,15 @@
     flex-direction: column;
     margin-left: 5px;
     min-width: 40vw;
-
-
-
 }
 .kd-container{
     display: flex;
     flex-wrap: wrap;
     margin-right: 2vw;
-
-
 }
 .players-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding-top: 12.2vh;
-    padding-bottom: 3.6vh;
-
 
 }
 .item-kd-inner{
@@ -58,13 +49,29 @@
     justify-content: center;
 }
 .item-player-pic{
-
+    text-align: center;
+    min-height: 5vh;
+    min-width:5vw;
 }
 .map-scroll-container{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     overflow-x: scroll;
-
-
+}
+.average-container{
+    display: flex;
+    flex-direction: column;
+}
+.item-average{
+    text-align: center;
+    min-height: 5vh;
+    min-width:5vw;
+}
+.player-top-container{
+    display: flex;
+    flex-direction: column;
+}
+.item-player-top{
+    text-align: center;
 }
