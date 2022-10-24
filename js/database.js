@@ -1,159 +1,16 @@
-// <div className="game-container">
-// 	<div className="match-container">
-// 		<div className="item-match-info">Date</div>
-// 		<div className="item-match-info">Opponent: VGG</div>
-// 		<div className="item-match-info">Win</div>
-// 	</div>
-// 	<div className="stats-container">
-// 		<div className="players-container">
-// 			<div className="player-top-container">
-// 				<div className="item-player-top">Map</div>
-// 				<div className="item-player-top">Score</div>
-// 			</div>
-// 			<div className="item-player-pic">Players</div>
-// 			<div className="item-player-pic">Dutch</div>
-// 			<div className="item-player-pic">DJ</div>
-// 			<div className="item-player-pic">Fatigue</div>
-// 			<div className="item-player-pic">Slog</div>
-// 			<div className="item-player-pic">Marky</div>
-// 		</div>
-// 		<div className="map-scroll-container">
-// 			<div className="map-stats-container">
-// 				<div className="map-info-container">
-// 					<div className="item-map-info">Suna</div>
-// 					<div className="item-map-info">11-9</div>
-// 				</div>
-// 				<div className="kd-container">
-// 					<div className="item-kd-inner">K</div>
-// 					<div className="item-kd-inner">D</div>
-// 					<div className="item-kd-inner">KDR</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 				</div>
-// 			</div>
-//
-// 			<div className="map-stats-container">
-// 				<div className="map-info-container">
-// 					<div className="item-map-info">Suna</div>
-// 					<div className="item-map-info">11-9</div>
-// 				</div>
-// 				<div className="kd-container">
-// 					<div className="item-kd-inner">K</div>
-// 					<div className="item-kd-inner">D</div>
-// 					<div className="item-kd-inner">KDR</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 				</div>
-// 			</div>
-// 			<div className="map-stats-container">
-// 				<div className="map-info-container">
-// 					<div className="item-map-info">Suna</div>
-// 					<div className="item-map-info">11-9</div>
-// 				</div>
-// 				<div className="kd-container">
-// 					<div className="item-kd-inner">K</div>
-// 					<div className="item-kd-inner">D</div>
-// 					<div className="item-kd-inner">KDR</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 					<div className="item-kd-inner">3</div>
-// 					<div className="item-kd-inner">5</div>
-// 					<div className="item-kd-inner">2.00</div>
-// 				</div>
-// 			</div>
-// 		</div>
-// 		<div className="average-container">
-// 			<div className="player-top-container">
-// 				<div className="item-player-top">Total</div>
-// 				<div className="item-player-top">33-25</div>
-// 			</div>
-// 			<div className="item-average">KDRA</div>
-// 			<div className="item-average">1</div>
-// 			<div className="item-average">2</div>
-// 			<div className="item-average">3</div>
-// 			<div className="item-average">4</div>
-// 			<div className="item-average">5</div>
-// 		</div>
-// 	</div>
-// </div>
-// <script src="js/database.js"></script>
-
-
-//                                                   ********************************
-//
-// To add a child to the beginning of a parent, use prepend
-//
-// parent.prepend(newChild)
-// To add at the end of a parent, use append
-//
-// parent.append(newChild)
-//
-
-
-
-
-//
-// function myFunction() {
-// 	var element = document.getElementById("myDIV");
-// 	element.classList.add("mystyle");              *******************************
-// }
-//
-
-
-// <script>                                     **************************
-// 	const para = document.createElement("p");
-// 	const node = document.createTextNode("This is new.");
-// 	para.appendChild(node);
-//
-// 	const element = document.getElementById("div1");
-// 	const child = document.getElementById("p1");
-// 	element.insertBefore(para, child);
-// </script>
-
-
-//////////////// notes/////////////
-//   append 1st, then the text node
 
 //////// k/d ///player///// map //////
-createGameContainer(`3-21`, `VGG`, `Lose`,`Dutch`,3, 5,`DJ`,3, 5, `Fatigue`,3,5, `Marky`,3,5, `Slog`,3, 5, `Suna`,`11-3`,`Maar`,`11-5`, 3,5,6,6,22,7,14,5, 2, 3, 3,2,1,6,20,11,15,7,12,12,`Kiti`, `8-11`);
+createGameContainer(`3-21`, `VGG`, `Lose`,`Dutch`,3, 5,`DJ`,3, 5, `Fatigue`,3,5, `Marky`,3,5, `Slog`,3, 5, `Suna`,`11-3`,`Maar`,`11-5`, 3,5,6,6,22,7,14,5, 2, 3, 3,2,1,6,20,11,15,7,12,12,`Kiti`, `8-11`, true, `33-33`);
 
-function createGameContainer(date, opponent, outcome, firstPlayer,k11, d11, secondPlayer,k21, d21, thirdPlayer,k31, d31, forthPlayer,k41, d41, fifthPlayer,k51, d51, firstMap, firstMapScore, secondMap, secondMapScore, k12,d12, k22, d22, k32, d32, k42, d42, k52, d52, k13, d13, k23, d23, k33, d33, k43, d43, k53, d53, thirdMap, thirdMapScore){
+function createGameContainer(date, opponent, outcome, firstPlayer,k11, d11, secondPlayer,k21, d21, thirdPlayer,k31, d31, forthPlayer,k41, d41, fifthPlayer,k51, d51, firstMap, firstMapScore, secondMap, secondMapScore, k12,d12, k22, d22, k32, d32, k42, d42, k52, d52, k13, d13, k23, d23, k33, d33, k43, d43, k53, d53, thirdMap, thirdMapScore, thirdPlayed, totalScoreInput){
+	
+	////needed conditional variables////
+	let kd31 = 0;
+	let kd32 = 0;
+	let kd33 = 0;
+	let kd34 = 0;
+	let kd35 = 0;
+	///////////////////////////////////
 	let frag =document.createDocumentFragment();
 	let body = document.getElementById(`body`);
 	let gameContainer = document.createElement(`div`);
@@ -370,60 +227,124 @@ function createGameContainer(date, opponent, outcome, firstPlayer,k11, d11, seco
 		}
 	});
 	///////////////////// Third itteration /////////////////////////
-	let mapStatsThree = document.createElement(`div`)
-	mapStatsThree.classList.add(`map-stats-container`);
-	placerMapContainer.appendChild(mapStatsThree);
-	//////////////////////////////////////////////////
-	let placeMapInfoContainer3 = document.createElement(`div`)
-	placeMapInfoContainer3.classList.add(`map-info-container`);
-	mapStatsThree.appendChild(placeMapInfoContainer3);
-	//////////////////////////////////////////////////
-	let map3 = document.createElement(`div`)
-	map3.classList.add(`item-map-info`);
-	placeMapInfoContainer3.appendChild(map3)
-	/////////////////////////////////////////////
-	let map3Node = document.createTextNode(`${thirdMap}`);
-	map3.appendChild(map3Node);
-	if (thirdMap === `Suna`){
-		map3.classList.add(`suna`);
-	}
-	else if (thirdMap === `Maar`){
-		map3.classList.add(`maar`)
-	}
-	else if(thirdMap === `Kiti`){
-		map3.classList.add(`kiti`)
-	}
-	/////////////////////////////////////////////
-	let map3Score = document.createElement(`div`)
-	map3Score.classList.add(`item-map-info`);
-	placeMapInfoContainer3.appendChild(map3Score)
-	/////////////////////////////////////////////
-	let map3ScoreNode = document.createTextNode(`${thirdMapScore}`);
-	map3Score.appendChild(map3ScoreNode);
-	/////////////////////////////////////////////////////////
-	let kdContainer3 = document.createElement(`div`)
-	kdContainer3.classList.add(`kd-container`);
-	mapStatsThree.appendChild(kdContainer3)
-	///////// MAP AND KD LOOP //////////////////////////
-	let kd31 = (k13 / d13).toFixed(2);
-	let kd32 = (k23 / d23).toFixed(2);
-	let kd33 = (k33/d33).toFixed(2);
-	let kd34 = (k43/d43).toFixed(2);
-	let kd35 = (k53/d53).toFixed(2);
-	let kdLoop3 = [`K`,`D`,`KDR`, k13, d13, kd31, k23, d23, kd32, k33, d33, kd33, k43, d43, kd34, k53, d53, kd35];
-	////////////// variables
-	kdLoop3.forEach((x) => {
-		let kdDivNew = document.createElement(`div`)
-		kdDivNew.classList.add(`item-kd-inner`);
-		kdContainer3.appendChild(kdDivNew)
+	if (thirdPlayed){
+		let mapStatsThree = document.createElement(`div`)
+		mapStatsThree.classList.add(`map-stats-container`);
+		placerMapContainer.appendChild(mapStatsThree);
+		//////////////////////////////////////////////////
+		let placeMapInfoContainer3 = document.createElement(`div`)
+		placeMapInfoContainer3.classList.add(`map-info-container`);
+		mapStatsThree.appendChild(placeMapInfoContainer3);
+		//////////////////////////////////////////////////
+		let map3 = document.createElement(`div`)
+		map3.classList.add(`item-map-info`);
+		placeMapInfoContainer3.appendChild(map3)
 		/////////////////////////////////////////////
-		let loopNode = document.createTextNode(x);
+		let map3Node = document.createTextNode(`${thirdMap}`);
+		map3.appendChild(map3Node);
+		if (thirdMap === `Suna`){
+			map3.classList.add(`suna`);
+		}
+		else if (thirdMap === `Maar`){
+			map3.classList.add(`maar`)
+		}
+		else if(thirdMap === `Kiti`){
+			map3.classList.add(`kiti`)
+		}
+		/////////////////////////////////////////////
+		let map3Score = document.createElement(`div`)
+		map3Score.classList.add(`item-map-info`);
+		placeMapInfoContainer3.appendChild(map3Score)
+		/////////////////////////////////////////////
+		let map3ScoreNode = document.createTextNode(`${thirdMapScore}`);
+		map3Score.appendChild(map3ScoreNode);
+		/////////////////////////////////////////////////////////
+		let kdContainer3 = document.createElement(`div`)
+		kdContainer3.classList.add(`kd-container`);
+		mapStatsThree.appendChild(kdContainer3)
+		///////// MAP AND KD LOOP //////////////////////////
+		kd31 = (k13 / d13).toFixed(2);
+		kd32 = (k23 / d23).toFixed(2);
+		kd33 = (k33/d33).toFixed(2);
+		kd34 = (k43/d43).toFixed(2);
+		kd35 = (k53/d53).toFixed(2);
+		let kdLoop3 = [`K`,`D`,`KDR`, k13, d13, kd31, k23, d23, kd32, k33, d33, kd33, k43, d43, kd34, k53, d53, kd35];
+		////////////// variables
+		kdLoop3.forEach((x) => {
+			let kdDivNew = document.createElement(`div`)
+			kdDivNew.classList.add(`item-kd-inner`);
+			kdContainer3.appendChild(kdDivNew)
+			/////////////////////////////////////////////
+			let loopNode = document.createTextNode(x);
+			kdDivNew.appendChild(loopNode);
+			/////////////////////////////////////////////////////////
+			if (parseFloat(x) < 1){
+				kdDivNew.classList.add(`red`);
+			}
+		});
+	}
+
+	/////////////////// AVERAGE CONTAINER ///////////////////////
+	let averageContainer = document.createElement(`div`)
+	averageContainer.classList.add(`average-container`);
+	statsContainer.appendChild(averageContainer);
+	let playerTopContainer2 = document.createElement(`div`)
+	playerTopContainer2.classList.add(`player-top-container`);
+	averageContainer.appendChild(playerTopContainer2);
+	let total = document.createElement(`div`)
+	total.classList.add(`item-player-top`);
+	playerTopContainer2.appendChild(total);
+	/////////////////////////////////////////////
+	let totalNode = document.createTextNode(`Total`);
+	total.appendChild(totalNode);
+	let totalScore = document.createElement(`div`)
+	totalScore.classList.add(`item-player-top`);
+	playerTopContainer2.appendChild(totalScore);
+	/////////////////////////////////////////////
+	let totalScoreNode = document.createTextNode(`${totalScoreInput}`);
+	totalScore.appendChild(totalScoreNode);
+	///////////////// AVERAGE LOOP /////////////
+	let player1kda =0;
+	let player2kda =0;
+	let player3kda =0;
+	let player4kda =0;
+	let player5kda =0;
+	let teamkda =0;
+	if (thirdPlayed) {
+		player1kda = ((parseFloat(kd1)+parseFloat(kd21)+parseFloat(kd31))/3).toFixed(2);
+		player2kda = ((parseFloat(kd2)+parseFloat(kd22)+parseFloat(kd32))/3).toFixed(2);
+		player3kda = ((parseFloat(kd3)+parseFloat(kd23)+parseFloat(kd33))/3).toFixed(2);
+		player4kda = ((parseFloat(kd4)+parseFloat(kd24)+parseFloat(kd34))/3).toFixed(2);
+		player5kda = ((parseFloat(kd5)+parseFloat(kd25)+parseFloat(kd35))/3).toFixed(2);
+		console.log(player5kda);
+	}
+	else {
+		player1kda = (parseFloat(kd1)+parseFloat(kd21))/2;
+		player2kda = (parseFloat(kd2)+parseFloat(kd22))/2;
+		player3kda = (parseFloat(kd3)+parseFloat(kd23))/2;
+		player4kda = (parseFloat(kd4)+parseFloat(kd24))/2;
+		player5kda = (parseFloat(kd5)+parseFloat(kd25))/2;
+	}
+	teamkda = (parseFloat(player1kda)+parseFloat(player2kda)+parseFloat(player3kda)+parseFloat(player4kda)+parseFloat(player5kda))/5;
+	
+	let averageLoop = [teamkda,player1kda, player2kda,player3kda,player4kda,player5kda];
+	////////////// variables
+	averageLoop.forEach((x) => {
+		let kdDivNew = document.createElement(`div`)
+		kdDivNew.classList.add(`item-average`);
+		averageContainer.appendChild(kdDivNew)
+		/////////////////////////////////////////////
+		let loopNode = document.createTextNode(`${x}`);
 		kdDivNew.appendChild(loopNode);
 		/////////////////////////////////////////////////////////
-		if (parseFloat(x) < 1){
+		if (x < 1){
 			kdDivNew.classList.add(`red`);
 		}
+		
 	});
+	averageLoop.forEach((x) =>{console.log(x)});
+
+	
 	/////always at the END!!!!!!
 	body.append(frag);
 	

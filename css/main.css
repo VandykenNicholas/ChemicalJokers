@@ -62,6 +62,7 @@
 .average-container{
     display: flex;
     flex-direction: column;
+
 }
 .item-average{
     text-align: center;
@@ -71,9 +72,12 @@
 .player-top-container{
     display: flex;
     flex-direction: column;
+
 }
 .item-player-top{
     text-align: center;
+    min-width: 10vw;
+
 }
 .red{
     color: red;
