@@ -367,20 +367,20 @@ function createGameContainer(date,
 	let player5kda =0;
 	let teamkda =0;
 	if (thirdPlayed) {
-		player1kda = ((parseFloat(kd1)+parseFloat(kd21)+parseFloat(kd31))/3).toFixed(2);
-		player2kda = ((parseFloat(kd2)+parseFloat(kd22)+parseFloat(kd32))/3).toFixed(2);
-		player3kda = ((parseFloat(kd3)+parseFloat(kd23)+parseFloat(kd33))/3).toFixed(2);
-		player4kda = ((parseFloat(kd4)+parseFloat(kd24)+parseFloat(kd34))/3).toFixed(2);
-		player5kda = ((parseFloat(kd5)+parseFloat(kd25)+parseFloat(kd35))/3).toFixed(2);
+		player1kda = ((parseFloat(kd1)+parseFloat(kd21)+parseFloat(kd31))/3).toFixed(3);
+		player2kda = ((parseFloat(kd2)+parseFloat(kd22)+parseFloat(kd32))/3).toFixed(3);
+		player3kda = ((parseFloat(kd3)+parseFloat(kd23)+parseFloat(kd33))/3).toFixed(3);
+		player4kda = ((parseFloat(kd4)+parseFloat(kd24)+parseFloat(kd34))/3).toFixed(3);
+		player5kda = ((parseFloat(kd5)+parseFloat(kd25)+parseFloat(kd35))/3).toFixed(3);
 	}
 	else {
-		player1kda = (parseFloat(kd1)+parseFloat(kd21))/2;
-		player2kda = (parseFloat(kd2)+parseFloat(kd22))/2;
-		player3kda = (parseFloat(kd3)+parseFloat(kd23))/2;
-		player4kda = (parseFloat(kd4)+parseFloat(kd24))/2;
-		player5kda = (parseFloat(kd5)+parseFloat(kd25))/2;
+		player1kda = ((parseFloat(kd1)+parseFloat(kd21))/2).toFixed(3);
+		player2kda = ((parseFloat(kd2)+parseFloat(kd22))/2).toFixed(3);
+		player3kda = ((parseFloat(kd3)+parseFloat(kd23))/2).toFixed(3);
+		player4kda = ((parseFloat(kd4)+parseFloat(kd24))/2).toFixed(3);
+		player5kda = ((parseFloat(kd5)+parseFloat(kd25))/2).toFixed(3);
 	}
-	teamkda = ((parseFloat(player1kda)+parseFloat(player2kda)+parseFloat(player3kda)+parseFloat(player4kda)+parseFloat(player5kda))/5).toFixed(2);
+	teamkda = ((parseFloat(player1kda)+parseFloat(player2kda)+parseFloat(player3kda)+parseFloat(player4kda)+parseFloat(player5kda))/5).toFixed(3);
 	
 	let averageLoop = [teamkda,player1kda, player2kda,player3kda,player4kda,player5kda];
 	////////////// variables
