@@ -37,6 +37,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-right: 2vw;
+    align-content: center;
 
 }
 .players-container{
@@ -46,6 +47,7 @@ body{
     background-color: rgba(21,170,14,0.26);
 }
 .item-kd-inner{
+
     flex-basis: 30%;
     flex-grow: 1;
     text-align: center;

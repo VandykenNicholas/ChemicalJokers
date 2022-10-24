@@ -1,6 +1,6 @@
 createGameContainer(`10/19/2022`,
-	`VGG`,
-	`Loss`,
+	`Eclipse`,
+	`Win`,
 	`Dutch`,
 	5,6,
 	6,5,
@@ -93,7 +93,7 @@ function createGameContainer(date,
 	//////////////////////////////////////////////////////
 	let matchC3 = document.createElement(`div`)
 	matchC3.classList.add(`item-match-info`);
-	if(outcome === `Lose`){
+	if(outcome === `Loss`){
 		matchC3.classList.add(`red`);
 	}
 	matchContainer.appendChild(matchC3);
